@@ -1,0 +1,30 @@
+{
+  "name": "stamatisan",
+  "version": "1.0.0",
+  "description": "Website for stamatisan.com",
+  "main": "devel/js/index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stamatisan",
+    "architecture"
+  ],
+  "author": "Stavroula Voulgaraki, Jérôme Leontidis",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "browser-sync-webpack-plugin": "^1.2.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
+    "write-file-webpack-plugin": "^4.1.0"
+  }
+}
