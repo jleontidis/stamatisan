@@ -51,8 +51,8 @@ module.exports = {
 plugins: [
     new ExtractTextPlugin("./../style.css"),
     new BrowserSyncPlugin( {
-        port: 80,
-        proxy: 'http://127.0.0.1/' + proxy_url,
+        port: 8080,
+        proxy: 'http://localhost/' + proxy_url,
         online: true,
         reloadDelay: 0,
         files: ["./devel/**/*.php"]
